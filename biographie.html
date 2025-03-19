@@ -1,1 +1,57 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    	<meta charset="UTF-8">
+    <title>voyage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+          #container {
+        display:flex;
+        align-items: right;
+      }
+          #board {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270);
+    -ms-transform: rotate(270);
+    transform: rotate(270deg);
+      }
+          #table {
+            align-items: center;
+      }
+    </style>
+  </head>
+  
+  <body>
+    
+    <button id="retour" onclick="history.back()">Retour</button>
+    <h1>Une biographie</h1>
+    <div id='container'>
+      <img src="https://i.ibb.co/60yHJkV6/IMG-3375.jpg" alt="me" width="500" height="300" class="image">
+      <p id="introtext">Bonjour, c'est moi, le créateur de cette page web! J'utilise habituellement le nom en ligne «croovet» et je me contente de jouer à des jeux sur mon ordinateur. J'utilise habituellement le nom en ligne «croovet» et je me contente de jouer à des jeux sur mon ordinateur. Actuellement, je suis au deuxième semestre de ma 11ème année. J'aime dessiner, faire du skateboard, jouer à des jeux et passer du temps avec mes amis.
+      Depuis peu, je travaille à devenir sauveteur, j'ai déjà ma croix de bronze et mon certificat de premiers soins, je vais donc bientôt prendre mon cours de NLS pour être employable en tant que sauveteur. Voici un aperçu de ce que j'aime et de ce que je n'aime pas.</p>
+    </div> 
+    <ol id="liste">
+      <li><a href="#musici">musique</a></li>
+      <li><a href="#boardp">skateboard</a></li>
+      <li><a href="#art">arts</a></li>
+      <li><a href="#table">compétences technologique</a></li>
+      </ol>
+   <br> <br> <br> <br>
+    <a name="musici"><img src="https://content.presentermedia.com/files/clipart/00005000/5189/music_notes_headphones_800_wht.jpg" alt="" width="200"height="200"/></a>
+    <p id="musictext">J'aime VRAIMENT la musique ! L'une de mes activités préférées est d'écouter de la musique ! J'écoute beaucoup de genres et beaucoup d'artistes, mais certains de mes artistes préférés sont : TV Girl, Jordana, Alex G, Tyler the Creator, MCR, et Nirvana. </p>
+    <a name="boardp"><img src="https://i.ibb.co/SDKN9Hs8/IMG-3377.jpg" alt="" id="board" width="300"height="500" ></a>
+    <p>Voici mon skateboard que j'ai récemment construit! Je l'ai acheté sur amazon et j'ai fini de l'assembler à la maison. Je l'utilise souvent et j'aime vraiment ça. Je ne suis pas le meilleur pour l'instant mais avec la fonte des neiges, je vais m'améliorer...</p>
+    <a name="art"><img src="https://i.ibb.co/q300HgFN/Cr-ation-Cubiste-22-Dec-2024-at-15-21.jpg" alt="" width="500" height="350"></a>
+    <p>Voici une œuvre d'art que j'ai réalisée moi-même! Je suis vraiment fière de celle-ci et je l'ai faite pour le cours d'art. Je dessine généralement quand je m'ennuie ou que je n'ai rien à faire. J'aime bien ça et je pense que je ne suis pas si mal que ça pour m'exprimer artistiquement.</p>
+    <br><br><br>
+    <a name="table"><p>Ici est une table de mes compétences..</p></a>
+    <table border='2' id="table">
+        <tr><th>Domaine</th> <th>Mes compétences</th><tr>
+         <tr><th>HTML</th><th>sémi-compétent</th><</tr>
+         <tr><th>CSS</th><th>débutant</th></tr>
+         <tr><th>Javascripts et autres script languages</th><th>débutant et TRÈS mal-a-laise</th></tr>
+         <tr><th>Périphériques d'un ordi</th><th>expert</th></tr>
+         <tr><th>Gestion des fichiers</th><th>expert</th></tr>
+    </table>
+  </body>
